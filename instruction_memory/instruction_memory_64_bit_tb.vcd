@@ -1,0 +1,59 @@
+$date
+	Fri Dec 24 22:37:25 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module instruction_memory_64_bit_tb $end
+$var wire 64 ! dataOut [63:0] $end
+$var reg 1 " Clk $end
+$var reg 1 # E $end
+$var reg 1 $ RW $end
+$var reg 64 % address [63:0] $end
+$var reg 64 & dataIn [63:0] $end
+$scope module insMem $end
+$var wire 1 " Clk $end
+$var wire 1 # E $end
+$var wire 1 $ RW $end
+$var wire 64 ' address [63:0] $end
+$var wire 64 ( dataIn [63:0] $end
+$var reg 64 ) dataOut [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx )
+b100111 (
+b10110 '
+b100111 &
+b10110 %
+0$
+0#
+1"
+bx !
+$end
+#20
+0"
+#40
+1$
+1"
+#60
+0"
+#80
+0$
+1"
+1#
+#100
+0"
+#120
+b100111 !
+b100111 )
+1$
+1"
+#140
+0"
+#160
