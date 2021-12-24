@@ -1,0 +1,74 @@
+$date
+	Fri Dec 24 14:50:42 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module adder_64_bit_tb $end
+$var wire 64 ! S [63:0] $end
+$var reg 64 " X [63:0] $end
+$var reg 64 # Y [63:0] $end
+$scope module adder $end
+$var wire 64 $ X [63:0] $end
+$var wire 64 % Y [63:0] $end
+$var reg 65 & C [64:0] $end
+$var reg 64 ' S [63:0] $end
+$var reg 1 ( carryin $end
+$var reg 1 ) carryout $end
+$var integer 32 * k [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1000000 *
+0)
+0(
+b1101001010010010111011000 '
+b1101001010010010001111110 &
+b110100101001001100011111 %
+b110100101001001010111001 $
+b110100101001001100011111 #
+b110100101001001010111001 "
+b1101001010010010111011000 !
+$end
+#20
+b101110 &
+b101100 !
+b101100 '
+b1000000 *
+b10101 #
+b10101 %
+b10111 "
+b10111 $
+#40
+b110100110 !
+b110100110 '
+b100000 &
+b1000000 *
+b10110 #
+b10110 %
+b110010000 "
+b110010000 $
+#60
+b0 &
+b111 !
+b111 '
+b1000000 *
+b11 #
+b11 %
+b100 "
+b100 $
+#80
+b11110110 &
+b10000100 !
+b10000100 '
+b1000000 *
+b1001011 #
+b1001011 %
+b111001 "
+b111001 $
+#100
