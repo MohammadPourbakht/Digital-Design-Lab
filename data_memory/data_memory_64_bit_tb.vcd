@@ -1,0 +1,89 @@
+$date
+	Sat Dec 25 16:30:15 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module data_memory_64_bit_tb $end
+$var wire 64 ! read_data [63:0] $end
+$var reg 1 " E $end
+$var reg 64 # address [63:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % mem_read $end
+$var reg 1 & mem_write $end
+$var reg 64 ' write_data [63:0] $end
+$scope module data_memory $end
+$var wire 1 " E $end
+$var wire 64 ( address [63:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % mem_read $end
+$var wire 1 & mem_write $end
+$var wire 64 ) write_data [63:0] $end
+$var reg 64 * read_data [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx *
+b110000 )
+b10111 (
+b110000 '
+1&
+0%
+1$
+b10111 #
+1"
+bx !
+$end
+#20
+0$
+#40
+b110000 !
+b110000 *
+1%
+0&
+1$
+#60
+0$
+#80
+1&
+1$
+#100
+0%
+0&
+0$
+#120
+b11100 '
+b11100 )
+1&
+1$
+#140
+0$
+#160
+0&
+1$
+0"
+#180
+0$
+1"
+#200
+b11100 !
+b11100 *
+1%
+1&
+1$
+#220
+0&
+0$
+#240
+0%
+1&
+1$
+#260
+1%
+0$
+#280
