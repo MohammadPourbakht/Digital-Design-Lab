@@ -1,0 +1,47 @@
+$date
+	Sun Dec 26 00:40:10 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module alu_control_tb $end
+$var wire 4 ! result [3:0] $end
+$var reg 2 " alu_op [1:0] $end
+$var reg 6 # instruction [5:0] $end
+$scope module aluC $end
+$var wire 2 $ alu_op [1:0] $end
+$var wire 6 % instruction [5:0] $end
+$var reg 4 & result [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10 &
+b100000 %
+b0 $
+b100000 #
+b0 "
+b10 !
+$end
+#20
+b0 !
+b0 &
+b100100 #
+b100100 %
+b10 "
+b10 $
+#40
+b110 !
+b110 &
+b100010 #
+b100010 %
+#60
+b1 !
+b1 &
+b100101 #
+b100101 %
+#80
