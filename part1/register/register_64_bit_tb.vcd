@@ -1,0 +1,58 @@
+$date
+	Fri Dec 24 21:20:39 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module register_64_bit_tb $end
+$var wire 64 ! dataOut [63:0] $end
+$var reg 1 " Clk $end
+$var reg 1 # E $end
+$var reg 1 $ RW $end
+$var reg 64 % dataIn [63:0] $end
+$scope module register $end
+$var wire 1 " Clk $end
+$var wire 1 # E $end
+$var wire 1 $ RW $end
+$var wire 64 & dataIn [63:0] $end
+$var reg 64 ' Q [63:0] $end
+$var reg 64 ( dataOut [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+bx '
+b1001011 &
+b1001011 %
+0$
+0#
+1"
+bx !
+$end
+#20
+0"
+#40
+1$
+1"
+#60
+0"
+#80
+b1001011 '
+0$
+1"
+1#
+#100
+0"
+#120
+b1001011 !
+b1001011 (
+1$
+1"
+#140
+0"
+#160

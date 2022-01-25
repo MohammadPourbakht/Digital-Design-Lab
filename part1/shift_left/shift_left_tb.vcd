@@ -1,0 +1,31 @@
+$date
+	Sun Dec 26 15:22:24 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module shift_left_tb $end
+$var wire 64 ! data_output [63:0] $end
+$var reg 64 " data_input [63:0] $end
+$scope module shiftL $end
+$var wire 64 # data_input [63:0] $end
+$var wire 64 $ data_output [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b110 $
+b11 #
+b11 "
+b110 !
+$end
+#20
+b10110 !
+b10110 $
+b1011 "
+b1011 #
+#40

@@ -1,0 +1,45 @@
+$date
+	Tue Jan 25 22:58:43 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module instruction_memory_tb $end
+$var wire 32 ! dataOut [31:0] $end
+$var reg 1 " E $end
+$var reg 1 # RW $end
+$var reg 64 $ address [63:0] $end
+$var reg 32 % dataIn [31:0] $end
+$scope module insMem $end
+$var wire 1 " E $end
+$var wire 1 # RW $end
+$var wire 64 & address [63:0] $end
+$var wire 32 ' dataIn [31:0] $end
+$var reg 32 ( dataOut [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+b100111 '
+b100 &
+b100111 %
+b100 $
+0#
+0"
+bx !
+$end
+#20
+1#
+#40
+0#
+1"
+#60
+b100111 !
+b100111 (
+1#
+#80
